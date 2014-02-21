@@ -11,7 +11,7 @@ Add `ng-environments` to the list of dependencies in your main module.
 var app = angular.module('App', ['ng-environments'])
 ```
 Each environment is an object with a unique name and a regular expression pattern that is matched against the browser's address. An environment can also contain extra variables such as analytics IDs, Facebook App IDs, etc.
-```
+```javascript
 {
     name: 'local',
     pattern: /localhost/,
@@ -24,7 +24,7 @@ Each environment is an object with a unique name and a regular expression patter
 **WARNING: Do NOT include any private keys, secret hashes or any data that shouldn't be accessible to the public.**
 
 To configure `ng-environments`, use `config()` to assign an array to `$environmentProvider.environments` containing one or more environment objects.
-```
+```javascript
 app.config(['$environmentProvider', function ($environmentProvider) {
     $environmentProvider.environments = [
         {
