@@ -1,12 +1,12 @@
-== ng-environments
+# ng-environments
 
 An AngularJS module that switches sets of environment variables depending on the browser address.
 
-=== Usage
+## Usage
 
-Source the ng-environments javascript file in your html.
+Source `angularjs` and `ng-environments` javascript files in your html.
 
-Add ng-environments to the list of dependencies in your main module.
+Add `ng-environments` to the list of dependencies in your main module.
 ```
 var app = angular.module('App', ['ng-environments'])
 ```
@@ -21,9 +21,9 @@ Each environment is an object with a unique name and a regular expression patter
     facebookAppId: '12345678901234'
 }
 ```
-WARNING: Do NOT include any private keys, secret hashes, or any other data that shouldn't be accessible to the public.
+**WARNING: Do NOT include any private keys, secret hashes or any data that shouldn't be accessible to the public.**
 
-To configure ng-environments, use `config()` to assign an array to `$environmentProvider.environments` containing one or more environment objects.
+To configure `ng-environments`, use `config()` to assign an array to `$environmentProvider.environments` containing one or more environment objects.
 ```
 app.config(['$environmentProvider', function ($environmentProvider) {
     $environmentProvider.environments = [
@@ -44,8 +44,8 @@ app.config(['$environmentProvider', function ($environmentProvider) {
     ];
 }]);
 ```
-NOTE: an error will be thrown if no environments can be matched against the address.
+**NOTE: an error will be thrown if no environments can be matched against the address.**
 
-=== Releases
+## Releases
 
 0.1.0 - Initial
