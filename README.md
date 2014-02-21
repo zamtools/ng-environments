@@ -7,7 +7,7 @@ An AngularJS module that switches sets of environment variables depending on the
 Source `angularjs` and `ng-environments` javascript files in your html.
 
 Add `ng-environments` to the list of dependencies in your main module.
-```
+```javascript
 var app = angular.module('App', ['ng-environments'])
 ```
 Each environment is an object with a unique name and a regular expression pattern that is matched against the browser's address. An environment can also contain extra variables such as analytics IDs, Facebook App IDs, etc.
