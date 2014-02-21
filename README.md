@@ -4,7 +4,9 @@ An AngularJS module that switches sets of environment variables depending on the
 
 ## Usage
 
-Source `angularjs` and `ng-environments` javascript files in your html.
+Source `angularjs` in your html file.
+
+Source `dist/ng-environments.js` or `dist/ng-environments.min.js` in your html.
 
 Add `ng-environments` to the list of dependencies in your main module.
 ```javascript
