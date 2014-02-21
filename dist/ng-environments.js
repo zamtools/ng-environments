@@ -1,4 +1,4 @@
-/*! ng-environments - v0.1.0 - 2014-02-20
+/*! ng-environments - v1.0.0 - 2014-02-20
 * https://github.com/zamtools/ng-environments
 * Copyright (c) 2014 Zamtools Inc.; Licensed MIT */
 var app = angular.module('ng-environments', []);
