@@ -6,6 +6,12 @@ An AngularJS module that switches sets of environment variables depending on the
 
 Source `angularjs` in your html file.
 
+Install `ng-environments`, this is most easily done with Bower.
+
+```
+bower install ng-environments --save
+```
+
 Source `dist/ng-environments.js` or `dist/ng-environments.min.js` in your html.
 
 Add `ng-environments` to the list of module dependencies in your main module.
