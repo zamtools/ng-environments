@@ -1,0 +1,38 @@
+{
+  "name": "ng-environments",
+  "version": "0.1.0",
+  "description": "Switches sets of environment variables depending on the browser address.",
+  "author": {
+    "name": "Zamtools Inc.",
+    "email": "zamtools@zamtools.com",
+    "url": "http://github.com/zamtools"
+  },
+  "keywords": [
+    "bower",
+    "angular",
+    "environment",
+    "switch"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zamtools/ng-environments.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zamtools/ng-environments/issues"
+  },
+  "homepage": "https://github.com/zamtools/ng-environments",
+  "licenses": [
+    {"type": "MIT"}
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-qunit": "~0.3.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.7"
+  }
+}

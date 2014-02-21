@@ -2,7 +2,7 @@
   "name": "ng-environments",
   "version": "0.1.0",
   "authors": [
-    "Zamtools Inc."
+    "Zamtools Inc. <zamtools@zamtools.com>"
   ],
   "description": "Switches sets of environment variables depending on the browser address.",
   "main": "dist/ng-environments.js",
@@ -13,7 +13,7 @@
     "switch"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/zamtools/ng-environments",
   "ignore": [
     "**/.*",
     "node_modules",
