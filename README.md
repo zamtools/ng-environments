@@ -14,6 +14,10 @@ bower install ng-environments --save
 
 Source `dist/ng-environments.js` or `dist/ng-environments.min.js` in your html.
 
+```html
+<script src="bower_components/ng-environments/dist/ng-environments.js"></script>
+```
+
 Add `ng-environments` to the list of module dependencies in your main module.
 
 ```javascript
