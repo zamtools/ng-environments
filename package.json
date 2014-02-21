@@ -22,7 +22,10 @@
   },
   "homepage": "https://github.com/zamtools/ng-environments",
   "licenses": [
-    {"type": "MIT"}
+    {
+      "type": "MIT",
+      "url": "https://github.com/zamtools/ng-environments/blob/master/MIT-LICENSE"
+    }
   ],
   "engines": {
     "node": ">= 0.10.0"
