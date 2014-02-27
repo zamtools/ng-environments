@@ -1,4 +1,4 @@
-/*! ng-environments - v1.0.0 - 2014-02-20
+/*! ng-environments - v1.0.0 - 2014-02-27
 * https://github.com/zamtools/ng-environments
 * Copyright (c) 2014 Zamtools Inc.; Licensed MIT */
 var app = angular.module('ng-environments', []);
@@ -11,7 +11,7 @@ app.provider('$environment', function() {
                 throw 'No environments have been configured';
             }
 
-            for (var i; i < this.environments.length; i++) {
+            for (var i = 0; i < this.environments.length; i++) {
                 var env = this.environments[i];
                 if (location.href.match(env.pattern)) {
                     return env;

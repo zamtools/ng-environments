@@ -8,7 +8,7 @@ app.provider('$environment', function() {
                 throw 'No environments have been configured';
             }
 
-            for (var i; i < this.environments.length; i++) {
+            for (var i = 0; i < this.environments.length; i++) {
                 var env = this.environments[i];
                 if (location.href.match(env.pattern)) {
                     return env;
